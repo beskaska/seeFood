@@ -13,6 +13,7 @@
 		85E6E9DC2513656D002396BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E6E9DA2513656D002396BD /* Main.storyboard */; };
 		85E6E9DE25136571002396BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E6E9DD25136571002396BD /* Assets.xcassets */; };
 		85E6E9E125136571002396BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E6E9DF25136571002396BD /* LaunchScreen.storyboard */; };
+		85E6E9E9251365CB002396BD /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 85E6E9E8251365CB002396BD /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		85E6E9DD25136571002396BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85E6E9E025136571002396BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85E6E9E225136571002396BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E6E9E8251365CB002396BD /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				85E6E9DD25136571002396BD /* Assets.xcassets */,
 				85E6E9DF25136571002396BD /* LaunchScreen.storyboard */,
 				85E6E9E225136571002396BD /* Info.plist */,
+				85E6E9E8251365CB002396BD /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85E6E9D92513656D002396BD /* ViewController.swift in Sources */,
+				85E6E9E9251365CB002396BD /* Inceptionv3.mlmodel in Sources */,
 				85E6E9D52513656D002396BD /* AppDelegate.swift in Sources */,
 				85E6E9D72513656D002396BD /* SceneDelegate.swift in Sources */,
 			);
